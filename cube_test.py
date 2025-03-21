@@ -10,6 +10,7 @@ from utils import *
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import MinMaxScaler
 from skimage.transform import resize
+##### Cube #######
 
 def find_hsi_cube_file(image_name, hsi_cube_dir):
     image_dir = os.path.join(hsi_cube_dir, image_name, 'capture')
